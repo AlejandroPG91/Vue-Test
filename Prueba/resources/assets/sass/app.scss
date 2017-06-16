@@ -1,0 +1,54 @@
+// @import "font-awesome-sprockets";
+// @import "font-awesome";
+
+.hero.is-info .nav.shadow{
+  box-shadow: 0 0 0 rgba(255, 255, 255, 0.2);
+}
+ul{
+  width: 50%;
+}
+a.nav-item, a.boxed-menu{
+  text-decoration: none;
+}
+
+.menu-topbar{
+  float: right;
+  margin-top: 3%;
+  margin-right: 8%;
+
+  &:hover {
+    color: #ffb90f;
+  }
+}
+
+.nav-left {
+    max-width: 20%;
+}
+
+
+@media screen and (min-width: 769px){
+
+  .container {
+    width: 100%;
+  }
+
+  .nav-right {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      max-width: 80%;
+  }
+}
+
+@media screen and (min-width: 769px){
+
+  .chat {
+    width: 100%;
+    margin: auto;
+  }
+}
+
+
+.nav-toggle {
+    margin-left: auto;
+}
